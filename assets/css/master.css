@@ -1,0 +1,113 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #1A1A1A; /* Gris muy oscuro */
+    color: #E0E0E0; /* Gris claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabecera */
+header {
+    background-color: #4B0082; /* Índigo oscuro */
+    color: #E0E0E0; /* Gris claro */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #E0E0E0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00FF00; /* Verde Neón */
+}
+
+/* Secciones principales */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #2E2E2E; /* Gris oscuro */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra fuerte */
+}
+
+section h2 {
+    color: #00FF00; /* Verde Neón */
+    margin-bottom: 15px;
+}
+
+/* Estilo para artículos y listas */
+article {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #E0E0E0; /* Gris claro */
+}
+
+/* Enlaces */
+a {
+    color: #00FF00; /* Verde Neón */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF00FF; /* Magenta Neón */
+}
+
+/* Footer */
+footer {
+    background-color: #4B0082; /* Índigo oscuro */
+    color: #E0E0E0;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+/* Pequeños detalles para accesibilidad y responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 15px;
+    }
+}

@@ -3,56 +3,184 @@
 <html lang="en">
 
     <head>    
-        <title>Alan/dev</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Pagina personal">
-        <meta name="keywords" content="UNAM, FES, Aragón, ICO">
+         <meta name="description" content="Página personal de Alan Martínez Martínez, con información académica, habilidades tecnológicas y pasatiempos.">
+         <meta name="keywords" content="UNAM, FES Aragón, ICO, tecnología, pasatiempos, Github">
+         <title>Página Personal - Alan Martínez Martínez</title>
         <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/css/master.css">
+        <script src="./assets/js/cliente.js"></script>
     </head>
 
-    <body>
+    <body id="cuerpo">
         <header>
-            <h1> Mi pagina personal </h1>
+            <h1> Alan Martínez Martínez</h1>
             <nav>
-                <ul>
-                    <li> <a href="http://aragon.unam.mx">Fes Aragón</a> </li>
-                    <li> <a href="http://www.google.com">Google</a> </li>
+                <ul>                    
+                    <li><a href="https://www.unam.mx">UNAM</a></li>
+                    <li><a href="https://www.aragon.unam.mx">FES Aragón</a></li>
+                    <li><a href="https://www.aragon.unam.mx/ico">ICO FES Aragón</a></li>
+                    <li><a href="https://github.com/Alanscky">GitHub</a></li>
                 </ul>
             </nav>
         </header>
         
         <main>            
-            <section>
-                <h1>Titulo section 1</h1>
+            <section id="estudios">
+                <h2>Información sobre mis estudios</h2>
+            
                 <article>
-                    <h3>Titulo articulo 1, section 1</h3>
-                    <p>parrafo 1, articulo 1, section 1</p>
+                    <h3>Carrera: Ingeniería en Computación</h3>
+                    <p>Actualmente estoy cursando el quinto semestre de la carrera de Ingeniería en Computación en la Facultad de Estudios Superiores Aragón (FES Aragón) de la Universidad Nacional Autónoma de México (UNAM). Esta carrera tiene como objetivo formar profesionales capaces de diseñar, implementar y gestionar sistemas de computación, tanto en software como en hardware, y de aplicar tecnologías emergentes para resolver problemas en diversas áreas.</p>
+                </article>
+            
+                <article>
+                    <h3>Asignaturas Destacadas</h3>
+                    <ul>
+                        <li><strong>Estructuras de Datos:</strong> Aprendí a implementar y utilizar estructuras de datos avanzadas, como listas enlazadas, árboles y grafos, para resolver problemas computacionales de manera eficiente.</li>
+                        <li><strong>Algoritmos:</strong> En esta asignatura, me enfoqué en el diseño y análisis de algoritmos, optimizando su rendimiento y aplicándolos a problemas complejos.</li>
+                        <li><strong>Base de Datos:</strong> Estudié el diseño, implementación y administración de bases de datos relacionales, incluyendo la creación de esquemas, consultas SQL y la optimización del rendimiento de las bases de datos.</li>
+                        <li><strong>Programación Orientada a Objetos (POO):</strong> Me enfoqué en el diseño y desarrollo de software utilizando el paradigma de programación orientada a objetos, aprendiendo conceptos como herencia, polimorfismo y encapsulamiento.</li>
+                    </ul>
+                </article>
+            
+                <article>
+                    <h3>Proyectos Realizados</h3>
+                    <ul>
+                        <li><strong>Diseño de una Página Web:</strong> Participé en el diseño y desarrollo de una página web para un cliente ficticio, utilizando HTML, CSS y JavaScript para crear una interfaz de usuario atractiva y funcional.</li>
+                        <li><strong>Implementación de un Sistema de Gestión de Base de Datos:</strong> Desarrollé un sistema de gestión de base de datos para una empresa ficticia, utilizando MySQL y realizando consultas complejas para extraer y manipular datos.</li>
+                        <li><strong>Proyecto de Programación Orientada a Objetos:</strong> Implementé un sistema de gestión de una panaderia utilizando principios de programación orientada a objetos, incluyendo clases, herencia y polimorfismo.</li>
+                    </ul>
+                </article>
+            
+                <article>
+                    <h3>Habilidades Adquiridas</h3>
+                    <p>Hasta el quinto semestre, he adquirido las siguientes habilidades:</p>
+                    <ul>
+                        <li>Programación en diversos lenguajes, incluyendo Python, Java y C++.</li>
+                        <li>Diseño y análisis de algoritmos eficientes para la resolución de problemas.</li>
+                        <li>Desarrollo de páginas web utilizando HTML, CSS y JavaScript.</li>
+                        <li>Diseño, implementación y administración de bases de datos relacionales.</li>
+                        <li>Desarrollo de software utilizando el paradigma de programación orientada a objetos.</li>
+                        <li>Trabajo en equipo y gestión de proyectos en entornos colaborativos.</li>
+                    </ul>
+                </article>
+            
+            </section>
+                 
+
+            
+            <section id="tecnologias">
+                <h2>Habilidades Tecnológicas</h2>
+            
+                <article>
+                    <h3>Lenguajes de Programación</h3>
+                    <ul>
+                        <li><strong>Python:</strong> Básico. Conocimientos en la escritura de scripts simples y automatización de tareas.</li>
+                        <li><strong>Java:</strong> Intermedio. Experiencia en desarrollo de aplicaciones de escritorio y móviles, así como en el uso de la plataforma Java EE para aplicaciones empresariales.</li>
+                        <li><strong>C++:</strong> Intermedio. Conocimientos sólidos en programación orientada a objetos y desarrollo de aplicaciones con alto rendimiento.</li>
+                        <li><strong>JavaScript:</strong> Intermedio. Desarrollo de aplicaciones web interactivas utilizando tecnologías como HTML5, CSS3 y frameworks como React.js y Node.js.</li>
+                    </ul>
+                </article>
+            
+                <article>
+                    <h3>Herramientas de Desarrollo</h3>
+                    <ul>
+                        <li><strong>Git:</strong> Intermedio. Gestión de versiones y colaboración en proyectos mediante Git y plataformas como GitHub.</li>
+                        <li><strong>Visual Studio Code:</strong> Intermedio. Editor de código para desarrollo en múltiples lenguajes con extensiones para mejorar la productividad.</li>
+                        <li><strong>MySQL:</strong> Intermedio. Diseño, implementación y administración de bases de datos relacionales, incluyendo la escritura de consultas SQL complejas.</li>
+                        <li><strong>Docker:</strong> Básico. Conocimiento en la creación y gestión de contenedores para el desarrollo y despliegue de aplicaciones.</li>
+                        <li><strong>VirtualBox:</strong> Intermedio. Uso de VirtualBox para crear y gestionar máquinas virtuales, facilitando el entorno de desarrollo y pruebas.</li>
+                    </ul>
+                </article>
+            
+                <article>
+                    <h3>Sistemas Operativos</h3>
+                    <ul>
+                        <li><strong>Linux:</strong> Intermedio. Experiencia en la administración y uso de sistemas operativos basados en Linux, incluyendo la línea de comandos y la configuración de entornos de desarrollo.</li>
+                    </ul>
+                </article>
+            
+                <article>
+                    <h3>Conceptos y Tecnologías Web</h3>
+                    <ul>
+                        <li><strong>HTML5:</strong> Avanzado. Estructuración de contenido web y desarrollo de interfaces con estándares modernos.</li>
+                        <li><strong>CSS3:</strong> Básico. Diseño de estilos web con conocimientos fundamentales en CSS3 para la creación de estilos y layout básicos.</li>
+                        <li><strong>Frameworks de JavaScript:</strong> Básico. Conocimiento en el uso de frameworks como React.js y Node.js para el desarrollo de aplicaciones web.</li>                        
+                    </ul>
                 </article>
 
                 <article>
-                    <h3>Titulo articulo 2, section 1</h3>
-                    <p>parrafo 1, articulo 2, section 1</p>
+                    <h3>Redes y Herramientas de Análisis</h3>
+                    <ul>
+                        <li><strong>Cisco Packet Tracer:</strong> Básico. Simulación de redes para el diseño y análisis de configuraciones de red.</li>
+                        <li><strong>Wireshark:</strong> Básico. Análisis de tráfico de red para la resolución de problemas y diagnóstico de redes.</li>
+                    </ul>
+                </article>
+            
+                <article>
+                    <h3>Otras Habilidades</h3>
+                    <ul>
+                        <li><strong>Programación Orientada a Objetos (POO):</strong> Avanzado. Aplicación de principios como herencia, polimorfismo y encapsulamiento en el desarrollo de software.</li>
+                        <li><strong>Metodologías Ágiles:</strong> Intermedio. Experiencia en la aplicación de metodologías ágiles como Scrum para la gestión de proyectos.</li>
+                        <li><strong>Seguridad en Aplicaciones:</strong> Básico. Conocimientos en prácticas de seguridad para el desarrollo de aplicaciones seguras.</li>                        
+                    </ul>
                 </article>
             </section>
+            
+            
 
-            <section>
-                <h1>Titulo section 2</h1>
+            <section id="informacion-adicional">
+                <h2>Información Adicional</h2>
+            
                 <article>
-                    <h3>Titulo articulo 1, section 2</h3>
-                    <p>parrafo 1, articulo 1, section 2</p>
-                </article>                
-            </section>            
+                    <h3>Pasatiempos</h3>
+                    <p>En mi tiempo libre, disfruto de varias actividades que me permiten relajarme y desconectar del trabajo académico:</p>
+                    <ul>
+                        <li><strong>Lectura:</strong> Me apasiona la lectura de novelas de ciencia ficción y fantasía, así como libros de desarrollo personal y tecnología.</li>
+                        <li><strong>Videojuegos:</strong> Soy aficionado a los videojuegos, especialmente a los de estrategia y aventuras. Me gusta analizar cómo se diseñan los juegos y sus mecánicas.</li>
+                        <li><strong>Deportes:</strong> Practico deportes como el baloncesto y el boxeo. Me gusta la competitividad y la técnica que ofrecen estos deportes.</li>
+                    </ul>
+                </article>
+            
+                <article>
+                    <h3>Áreas de Interés</h3>
+                    <p>Además de mis estudios, tengo un gran interés en varias áreas relacionadas con la tecnología y la innovación:</p>
+                    <ul>
+                        <li><strong>Inteligencia Artificial:</strong> Me fascina cómo la inteligencia artificial está transformando diferentes industrias y me interesa aprender más sobre el desarrollo de sistemas inteligentes.</li>
+                        <li><strong>Desarrollo de Videojuegos:</strong> Estoy muy interesado en el diseño y desarrollo de videojuegos. Me gustaría explorar las diferentes fases del desarrollo, desde la creación de conceptos hasta la implementación y pruebas de los juegos.</li>
+                        <li><strong>Redes y Seguridad:</strong> La seguridad en redes y la administración de sistemas son áreas que me gustaría explorar más a fondo.</li>
+                    </ul>
+                </article>
+            
+                <article>
+                    <h3>Música Favorita</h3>
+                    <p>La música es una parte importante de mi vida y disfruto de diversos géneros:</p>
+                    <ul>
+                        <li><strong>Rock Alternativo:</strong> Disfruto de bandas como Queens of the Stone Age y Metallica. Me atrae la energía y la originalidad del rock alternativo.</li>
+                        <li><strong>Pop y Electrónica:</strong> Me gustan los sonidos vibrantes y pegajosos de artistas como Imagine Dragons, Gorillaz y David Guetta. Estas mezclas de pop y electrónica son ideales para animar cualquier ocasión.</li>
+                        <li><strong>Rock y Pop Internacional:</strong> Bandas como Coldplay y Black Eyed Peas ofrecen una variedad de estilos que van desde el rock suave hasta el pop animado, haciendo que mi playlist sea diversa y emocionante.</li>
+                    </ul>
+                </article>
+            
+                <article>
+                    <h3>Objetivos Profesionales</h3>
+                    <p>Mis objetivos profesionales incluyen:</p>
+                    <ul>
+                        <li><strong>Desarrollar Videojuegos:</strong> Convertirme en un desarrollador de videojuegos experto en el diseño y creación de experiencias interactivas innovadoras.</li>
+                        <li><strong>Contribuir a Proyectos Tecnológicos:</strong> Trabajar en proyectos tecnológicos que tengan un impacto positivo en la sociedad.</li>
+                        <li><strong>Continuar Aprendiendo:</strong> Seguir aprendiendo y actualizándome en nuevas tecnologías y tendencias del sector tecnológico.</li>
+                    </ul>
+                </article>
+            </section>
+            
+            
+            
         </main>
-
-        <aside>
-            <h4>Informacion adicional</h4>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, blanditiis maiores! Maxime ea, ratione similique sunt, laudantium 
-                dolor soluta, error qui vitae asperiores nihil quidem eaque recusandae alias ipsa commodi.</p>
-        </aside>
-
+        
         <footer>
-            <p>Todos los derechos reservados fes argagon unam 2024</p>
+            <p>&copy; 2024 Alan Martínez Martínez. Todos los derechos reservados.</p>
         </footer>
     </body>
 
